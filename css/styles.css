@@ -1,0 +1,35 @@
+body {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery {
+  margin: 0;
+  padding: 24px;
+  max-width: 1440px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  border: 2px solid #21212150;
+  border-radius: 10px;
+}
+.gallery-item:hover,
+.gallery-item:focus {
+  scale: 1.05;
+  cursor: pointer;
+}
+.gallery-link {
+  display: block;
+  width: 360px;
+  height: 200px;
+}
+.gallery-image {
+  width: 100%;
+  height: 100%;
+}
